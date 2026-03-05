@@ -34,7 +34,7 @@ public class MusicBox {
     }
 
     public char getPremiumSong() {
-        System.out.println();
+        System.out.println("first");
         return isSongPremium;
     }
 
