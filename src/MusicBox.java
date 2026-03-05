@@ -26,6 +26,7 @@ public class MusicBox {
     
     //Methods
     public String getSongID() {
+        System.out.println("first");
         return songID;
     }
     
