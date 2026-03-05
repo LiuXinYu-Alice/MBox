@@ -17,6 +17,7 @@ public class MusicBox {
         this.songID = songID;
         this.isSongPremium = premiumSong;
         this.songArtists = artists;
+
         
         // -- TODO
         /* Initialise  the rest of the variables in this Constructor block*/
@@ -33,6 +34,7 @@ public class MusicBox {
     }
 
     public char getPremiumSong() {
+        System.out.println();
         return isSongPremium;
     }
 
