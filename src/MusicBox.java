@@ -28,8 +28,10 @@ public class MusicBox {
     public String getSongID() {
         return songID;
     }
+    
 
     public String getSongArtists() {
+        System.out.println("first");
         return songArtists;
     }
 
